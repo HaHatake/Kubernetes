@@ -13,12 +13,12 @@ Get rke softwares
 https://github.com/rancher/rke/releases
 
 ## install RKE
-read how to install rke
-https://rancher.com/announcing-rke-lightweight-kubernetes-installer/
+read how to install rke  
+https://rancher.com/announcing-rke-lightweight-kubernetes-installer/  
 
-rename the file rke_darwin-amd64 to rke
-```mv rke_darwin-amd64 rke```
+rename the file rke_darwin-amd64 to rke  
+```mv rke_darwin-amd64 rke```  
 
-grant access to the file
-```chmod +x rke```
+grant access to the file  
+```chmod +x rke```  
 
