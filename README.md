@@ -37,6 +37,7 @@ setup your EC2 server IPaddress
 this server IPaddress is accessed from each other clastered servers  
 ![2019-02-20 16 13 36](https://user-images.githubusercontent.com/20141292/53074197-7557ce80-352d-11e9-92d6-90e50fa4d4ec.png)  
 
-## Hello RKE
-
+## Hello RKE  
+RKE start page is opended!
+![2019-02-20 16 33 27](https://user-images.githubusercontent.com/20141292/53074280-ac2de480-352d-11e9-87b2-b5fadf775989.png)
 
