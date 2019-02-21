@@ -2,10 +2,12 @@
 Kubernetes test repository.  
 Lets learn container management :)  
 
+# Goal
+Make Tetris web server powered by Rancher Kubernetes.
+
 # This method needs
 AWS account  (able to create EC2 instans)
 AWS key  
-Azure key  
 
 
 # First step ( Launch Rancher Kubernetes Engine instans)
@@ -67,7 +69,12 @@ Enter your AWS key information
 
 
 if you encounted the error
-Failed to communicate with API server: Get https://yourIPaddress/api/v1/componentstatuses?timeout=30s: net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+Failed to communicate with API server: Get https://yourIPaddress/api/v1/componentstatuses?timeout=30s: net/http: request canceled (Client.Timeout exceeded while awaiting headers)  
+
+read this thred
+https://github.com/rancher/rancher/issues/15319
+
+
 
 Enter VPC network setting  
 ![2019-02-21 11 36 50](https://user-images.githubusercontent.com/20141292/53139450-0762e400-35cd-11e9-9597-d17cf5016c8d.png)
@@ -81,5 +88,8 @@ if you encounted the error "AuthFailure: AWS was not able to validate the provid
 if you encounted the error "[network] Host [*masuternode IPaddress*] is not able to connect to the following ports: [*your nodes IPaddress*]. Please check network policies and firewall rules"
 
 check your Security Group. Permit any port (ex.79) from master node IPaddress.
+
+This cluster is currently Unavailable; areas that interact directly with it will not be available until the API is ready.
+
 
 
