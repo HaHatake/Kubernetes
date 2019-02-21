@@ -64,6 +64,11 @@ select template plus mark
 Enter your AWS key information  
 ![2019-02-21 11 34 50](https://user-images.githubusercontent.com/20141292/53139365-c5d23900-35cc-11e9-9992-c6df00bc4ad4.png)
 
+
+
+if you encounted the error
+Failed to communicate with API server: Get https://yourIPaddress/api/v1/componentstatuses?timeout=30s: net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+
 Enter VPC network setting  
 ![2019-02-21 11 36 50](https://user-images.githubusercontent.com/20141292/53139450-0762e400-35cd-11e9-9597-d17cf5016c8d.png)
 
