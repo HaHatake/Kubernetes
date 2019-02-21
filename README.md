@@ -60,6 +60,12 @@ Cluster setting
 
 
 ## create Template
+select template plus mark  
+Enter your AWS key information  
+![2019-02-21 11 34 50](https://user-images.githubusercontent.com/20141292/53139365-c5d23900-35cc-11e9-9992-c6df00bc4ad4.png)
+
+Enter VPC network setting  
+![2019-02-21 11 36 50](https://user-images.githubusercontent.com/20141292/53139450-0762e400-35cd-11e9-9597-d17cf5016c8d.png)
 
 
 if you encounted the error "AuthFailure: AWS was not able to validate the provided access credentials"  
