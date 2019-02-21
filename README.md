@@ -2,6 +2,13 @@
 Kubernetes test repository.  
 Lets learn container management :)  
 
+# This method needs
+AWS account  (able to create EC2 instans)
+AWS key  
+Azure key  
+
+
+# First step ( Launch Rancher Kubernetes Engine instans)
 
 
 ## Launch Amazon Linux 2 EC2 instans and access SSH
@@ -39,6 +46,29 @@ this server IPaddress is accessed from each other clastered servers
 ![2019-02-20 16 13 36](https://user-images.githubusercontent.com/20141292/53074197-7557ce80-352d-11e9-92d6-90e50fa4d4ec.png)  
 
 ## Hello RKE  
-RKE start page is opended!
+RKE start page is opended! and add cluster  
 ![2019-02-20 16 33 27](https://user-images.githubusercontent.com/20141292/53074280-ac2de480-352d-11e9-87b2-b5fadf775989.png)
+
+## create Rancher EC2 nodes  
+
+select EC2  
+![2019-02-21 9 53 06](https://user-images.githubusercontent.com/20141292/53135470-a502e700-35be-11e9-9920-d445b7f358cf.png)
+
+Cluster setting  
+![2019-02-21 11 12 38](https://user-images.githubusercontent.com/20141292/53138446-a5ed4600-35c9-11e9-89e9-04324e9c694e.png)
+
+
+
+## create Template
+
+
+if you encounted the error "AuthFailure: AWS was not able to validate the provided access credentials"  
+  maybe your EC2 instans's time was wrong. check ntp synchronization.
+  
+  
+## moniterling Cluster
+if you encounted the error "[network] Host [*masuternode IPaddress*] is not able to connect to the following ports: [*your nodes IPaddress*]. Please check network policies and firewall rules"
+
+check your Security Group. Permit any port (ex.79) from master node IPaddress.
+
 
