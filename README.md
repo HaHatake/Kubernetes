@@ -35,6 +35,7 @@ access your EC2 IPaddress and setup new password
 
 setup your EC2 server IPaddress  
 this server IPaddress is accessed from each other clastered servers  
+!Reminder : default EC2 instans haven't static Groval IPaddress.Elastic IP atatche the rancher master EC2 instans.
 ![2019-02-20 16 13 36](https://user-images.githubusercontent.com/20141292/53074197-7557ce80-352d-11e9-92d6-90e50fa4d4ec.png)  
 
 ## Hello RKE  
