@@ -3,21 +3,17 @@ Kubernetes test repository.
 Lets learn container management :)  
 
 # Reference
-Thank You
-https://cloudpack.media/37489
 
 
 # Goal
-Make Tetris web server powered by Rancher Kubernetes.
+Make Tetris web server powered by Rancher Kubernetes on AWS and Azure.
 
 # This method needs
 AWS account  (permittion to create EC2 instans)  
-AWS key  
 
+# First step ( Launch Rancher Kubernetes Engine instans and Node instans)
 
-# First step ( Launch Rancher Kubernetes Engine instans)
-
-## Launch Amazon Linux 2 EC2 instans and access SSH
+## Launch Amazon Linux 2 EC2 2 instans and Azure 1 instans. Access by ssh each other instans.
 updates  
 ```sudo yum -y update```
 
@@ -32,7 +28,7 @@ install docker and autolaunch
 ```sudo systemctl enable docker```
 
 
-## Install RKE(:Rancher Kubernetes Engine)  
+## Install RKE(:Rancher Kubernetes Engine) on 1 EC2 instans 
 read how to install rke  
 https://rancher.com/announcing-rke-lightweight-kubernetes-installer/  
 
@@ -95,5 +91,5 @@ check your Security Group. Permit any port (e.g.79) from master node IPaddress.
 
 This cluster is currently Unavailable; areas that interact directly with it will not be available until the API is ready.
 
-
+if you encounted the error "skipped because they could not be contacted"
 
