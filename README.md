@@ -6,7 +6,7 @@ Lets learn container management :)
 Make Tetris web server powered by Rancher Kubernetes.
 
 # This method needs
-AWS account  (able to create EC2 instans)
+AWS account  (permittion to create EC2 instans)  
 AWS key  
 
 
