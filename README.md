@@ -91,7 +91,7 @@ if you encounted the error "AuthFailure: AWS was not able to validate the provid
 ## moniterling Cluster
 if you encounted the error "[network] Host [*masuternode IPaddress*] is not able to connect to the following ports: [*your nodes IPaddress*]. Please check network policies and firewall rules"
 
-check your Security Group. Permit any port (ex.79) from master node IPaddress.
+check your Security Group. Permit any port (e.g.79) from master node IPaddress.
 
 This cluster is currently Unavailable; areas that interact directly with it will not be available until the API is ready.
 
