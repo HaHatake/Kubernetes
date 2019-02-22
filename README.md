@@ -2,6 +2,11 @@
 Kubernetes test repository.  
 Lets learn container management :)  
 
+# Reference
+Thank You
+https://cloudpack.media/37489
+
+
 # Goal
 Make Tetris web server powered by Rancher Kubernetes.
 
@@ -11,7 +16,6 @@ AWS key
 
 
 # First step ( Launch Rancher Kubernetes Engine instans)
-
 
 ## Launch Amazon Linux 2 EC2 instans and access SSH
 updates  
